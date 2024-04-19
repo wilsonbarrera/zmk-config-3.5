@@ -9,3 +9,6 @@ config SHIELD_ENKI42_RIGHT
 
 config SHIELD_ENKI42_DONGLE
 	def_bool $(shields_list_contains,enki42_dongle)
+
+CONFIG_ZMK_SLEEP=y
+CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=900000
