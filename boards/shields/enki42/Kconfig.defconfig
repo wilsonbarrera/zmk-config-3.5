@@ -40,7 +40,7 @@ config I2C
     default y
 endif
 
-endif
+
 
 
 
@@ -66,4 +66,5 @@ endchoice
 
 endif # ZMK_DISPLAY
 
+endif
 endif
