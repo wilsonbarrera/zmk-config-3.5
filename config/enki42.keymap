@@ -27,8 +27,8 @@ SPDX-License-Identifier: MIT
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/reset.h>
 #include "keymap_german_mac_iso_zmk.h"
-#include "keypos_42keys.h"
-#include "config_zmk.h"
+#include "/boards/shields/enki42/keypos_42keys.h"
+#include "/boards/shields/enki42/config_zmk.h"
 //#include "mouse.dtsi"
 //&led_strip {
 //    chain-length = <27>;
