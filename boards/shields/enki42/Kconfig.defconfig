@@ -38,7 +38,13 @@ endif # USB
 	
 config I2C
     default y
+endif
 
+endif
+
+
+
+if SHIELD_ENKI42_LEFT || SHIELD_ENKI42_RIGHT
 #agregado por zkorpio para funcionamiento oled
 if ZMK_DISPLAY
 
