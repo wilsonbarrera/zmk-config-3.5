@@ -36,16 +36,8 @@ if SHIELD_ENKI42_LEFT || SHIELD_ENKI42_RIGHT || SHIELD_ENKI42_DONGLE
 	
 	endif # USB
 	
-	
-endif
 
-
-
-
-
-if SHIELD_ENKI42_LEFT || SHIELD_ENKI42_RIGHT
-
-#agregado por zkorpio para funcionamiento oled
+	#agregado por zkorpio para funcionamiento oled
 	if ZMK_DISPLAY
 
 		config I2C
